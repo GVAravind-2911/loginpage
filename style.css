@@ -1,0 +1,216 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(#FFF8F5,#FBCFE7,#EACFF5,#E1D2FD);
+    color: #000;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#FFF8F5,#FBCFE7,#EACFF5,#E1D2FD);
+}
+
+.div {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  font-weight: 400;
+  padding: 34px 60px 87px;
+  background: 
+      repeating-conic-gradient(
+          from 0deg,  
+          transparent 0deg, 
+          transparent 19deg,
+          rgba(244, 191, 227, 0.3) 19deg, 
+          rgba(244, 191, 227, 0.3) 20deg,
+          transparent 20deg, 
+          transparent 39deg,
+          rgba(244, 191, 227, 0.3) 39deg, 
+          rgba(244, 191, 227, 0.3) 40deg,
+          transparent 40deg,
+          transparent 59deg,
+          rgba(244, 191, 227, 0.3) 59deg, 
+          rgba(244, 191, 227, 0.3) 60deg,
+          transparent 60deg,
+          transparent 79deg,
+          rgba(244, 191, 227, 0.3) 79deg, 
+          rgba(244, 191, 227, 0.3) 80deg,
+          transparent 80deg,
+          transparent 99deg,
+          rgba(244, 191, 227, 0.3) 99deg, 
+          rgba(244, 191, 227, 0.3) 100deg
+      ),
+      linear-gradient(#FFF8F5,#FBCFE7,#EACFF5,#E1D2FD);
+  height:90%;
+  width: 100%;
+}
+  .div-2 {
+    display: flex;
+    width: 35%;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-login-head {
+    border-radius: 10px;
+    background-color: #ffe685;
+    justify-content: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-login-head h1{
+    font: 18px Inter, sans-serif;
+  }
+  .fields {
+    display: flex;
+    margin-top: px;
+    flex-direction: column;
+    font-size: 15px;
+    padding: 20px 44px 30px;
+    width: 60%;
+    height: 400px;
+    border: 4px solid #f4bfe3;
+    background: linear-gradient(#FFE2EA,#F6CBE8,#EBCEF4);
+  }
+  .emailpassword-label{
+    font: 15px Inter, sans-serif;
+    margin-bottom: 7px;
+    margin-left: 7px;
+  }
+  .emailpassword-input {
+    border-radius: 10px;
+    background-color: white;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+  }
+.emailpassword-input:focus {
+    outline-color: #a597ff;    
+}
+
+.emailpassword-input[type="password"] {
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+  .remandforgot {
+    display: flex;
+    margin-top: 0px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .remspan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .remcheck {
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+  }
+  .remchecklabel {
+    font-family: Inter, sans-serif;
+    margin-top: 0px;
+    margin-left: 4px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    display: flex;
+    opacity: 0.6;
+  }
+  .forgpass {
+    font-family: Inter, sans-serif;
+    margin-left: 45px;
+    text-decoration: none;
+    color: #000;
+  }
+  .createacc {
+    border-radius: 10px;
+    background-color: #000000;
+    color: aliceblue;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+  }
+  
+  .createacc:hover{
+    transform: scale(1.01);
+    transition: 0.1s;
+    border-color: #dfa1a1;
+  }
+
+  .googlelogin {
+    border-radius: 10px;
+    background-color: white;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    outline: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    outline-width: 0px;
+    border: none;
+    margin-bottom: 10px;
+  }
+
+.googleimg{
+    width:20px;
+    height:20px;
+}
+
+.googlelogin:hover{
+    transform: scale(1.01);
+    transition: 0.1s;
+    border-color: #dfa1a1;
+}
+
+.lin1{
+    width: 48%;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.lin2{
+    width: 48%;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.lines{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 20px;
+    margin-left: 17%;
+    gap:10px;
+}
